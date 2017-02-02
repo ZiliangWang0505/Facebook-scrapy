@@ -29,8 +29,8 @@ class FacebookSpider(scrapy.Spider):
                 'lsd': lsd,
                 'm_ts': m_ts,
                 'li': li,
-                'email': 'wangziliang05@gmail.com',
-                'pass': '930505WZL!'
+                'email': 'your email address',
+                'pass': 'your password'
             },
             callback=self.after_login
         )]
